@@ -4,10 +4,11 @@ sources:
   - name: raw_data
     database: raw
     schema: public
+
     tables:
       - name: customers
-        name: orders
-        name: products
-        name: line_items
-        name: payments
-        name: website_events
+      - name: orders
+      - name: products
+      - name: line_items
+      - name: payments
+      - name: website_events
